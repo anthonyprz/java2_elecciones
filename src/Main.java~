@@ -1,0 +1,12 @@
+import elecciones:*;
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		
+		String opcion;
+		Scanner sc = new Scanner (System.in);
+
+			System.out.println("elije una opcion 'habitante''ayuntamiento''zona publica' 'inmueble''partido'")
+	}
+	
+}
