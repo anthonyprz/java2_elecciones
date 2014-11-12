@@ -6,7 +6,7 @@ public class Habitante {
 		private String apellido;
 		private int edad;
 	    
-		 public String getnombre( ){
+		 public String getnombre(){
 			    return this.nombre;
 			  }
 		 public void setnombre(String nombre){
@@ -27,17 +27,7 @@ public class Habitante {
 	public String datos(){
         return this.nombre+"\n"+this.apellido;
     }
-    public int edad(){
-     //   return this.edad;
-        if (this.edad >= 18) {
-        	System.out.println("\npuedes votar");
-        	return edad;
-        }
-        else {
-        	System.out.println("\nno puedes votar");
-        	return edad;
-        }
 }
-}
+
 
 

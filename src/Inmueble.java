@@ -1,5 +1,3 @@
-package elecciones;
-
 		public class Inmueble {
 				
 				private String tipo;

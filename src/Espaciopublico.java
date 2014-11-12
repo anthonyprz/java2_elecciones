@@ -1,24 +1,22 @@
-package elecciones;
+
 
 public class Espaciopublico {
 
 		private String calle;
-		private String ubicacion;
+		private String municipio;
 		
-		
+
 		 public String getcalle( ){
 			    return this.calle;
 			  }
 		 public void setcalle(String calle){
 			    this.calle = calle;
 		 }
-		 public String getplaza(){
-			    return this.plaza;
+		 public String getmunicipio(){
+			    return this.municipio;
 			  }
-		 public void setubicacion(String ubicacion) {
-			    this.ubicacion = ubicacion;
+		 public void setnunicipio(String municipio) {
+			    this.municipio = municipio;
 		 }
-
-
 }
 

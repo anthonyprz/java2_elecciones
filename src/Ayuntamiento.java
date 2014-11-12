@@ -3,7 +3,8 @@ public class Ayuntamiento {
 		private String pueblo;
 		private String direccion;
 		private int habitantes;
-
+		private String alcalde;
+		
 		public String getpueblo (){
 			return this.pueblo;
 		}
@@ -21,5 +22,11 @@ public class Ayuntamiento {
 		}
 		public void sethabitantes(int habitantes){
 			this.habitantes = habitantes;
+		}
+		public String getalcalde (){
+			return this.alcalde;
+		}
+		public void setalcalde(String alcalde){
+			this.alcalde = alcalde;
 		}
 }
