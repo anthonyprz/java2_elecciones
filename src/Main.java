@@ -1,14 +1,15 @@
 //import elecciones;
 import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
 		
 		String opcion;
 		Scanner sc = new Scanner (System.in);
 
-			System.out.println("elige una opcion 'habitante''ayuntamiento''espaciopublico' 'inmueble''partido'");
-			opcion = sc.next();
-	if (opcion.equalsIgnoreCase("habitante")){
+		//	System.out.println("elige una opcion 'habitante''ayuntamiento''espaciopublico' 'inmueble''partido'");
+		//	opcion = sc.next();
+	//if (opcion.equalsIgnoreCase("habitante")){
 		String nombre;
 		String apellido;
 		int edad;
@@ -31,8 +32,8 @@ public class Main {
 		System.out.println("apellido:"+apellido);
 		System.out.println("edad:"+edad);
 	
-		}
-	if (opcion.equalsIgnoreCase("ayuntamiento")){
+		//}
+	//if (opcion.equalsIgnoreCase("ayuntamiento")){
 		String pueblo;
 		String direccion;
 		int habitantes;
@@ -59,8 +60,8 @@ public class Main {
 		System.out.println("direccion:"+direccion);
 		System.out.println("habitantes:"+habitantes);
 		System.out.println("alcalde:"+alcalde);
-		}
-	if (opcion.equalsIgnoreCase("espaciopublico")){
+	//	}
+	//if (opcion.equalsIgnoreCase("espaciopublico")){
 
 			String calle;
 			String municipio;
@@ -79,18 +80,18 @@ public class Main {
 			System.out.println("el espacio publico y sus datos son:");
 			System.out.println("la calle es:" + calle);
 			System.out.println("el municipio es:" + municipio);
-		}
+		//}
 
-	if (opcion.equalsIgnoreCase("inmueble")) {
+	//if (opcion.equalsIgnoreCase("inmueble")) {
 
 		String tipo;
-		String calle;
+		String calleinmueble;
 		int numero;
 
 		System.out.println("ingrese el tipo de inmueble:");
 		tipo = sc.next();
 		System.out.println("ingrese la calle:");
-		calle = sc.next();
+		calleinmueble = sc.next();
 		System.out.println("ingrese el numero:");
 		numero = sc.nextInt();
 
@@ -102,12 +103,12 @@ public class Main {
 
 		System.out.println("los datos del inmueble son:");
 		System.out.println("el tipo es:" + tipo);
-		System.out.println("la calle es:" + calle);
+		System.out.println("la calle es:" + calleinmueble);
 		System.out.println("el numero del inmueble:" + numero);
 
-		}
+	//	}
 
-if (opcion.equalsIgnoreCase("partido")){
+//if (opcion.equalsIgnoreCase("partido")){
 		String candidato;
 		String director;
 		String ideologia;
@@ -131,7 +132,7 @@ if (opcion.equalsIgnoreCase("partido")){
 		System.out.println("el candidato es:" +candidato);
 		System.out.println("el director es:" + director);
 		System.out.println("la ideologia de este partido es" + ideologia);
-		} 
+		//} 
 
 	}
 	
