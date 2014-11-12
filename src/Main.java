@@ -1,4 +1,3 @@
-//import elecciones;
 import java.util.Scanner;
 
 public class Main {
@@ -10,6 +9,7 @@ public class Main {
 		//	System.out.println("elige una opcion 'habitante''ayuntamiento''espaciopublico' 'inmueble''partido'");
 		//	opcion = sc.next();
 	//if (opcion.equalsIgnoreCase("habitante")){
+		System.out.println("empezamos por habitante");
 		String nombre;
 		String apellido;
 		int edad;
@@ -27,13 +27,10 @@ public class Main {
 		habitante.setapellido(apellido);
 		habitante.setedad(edad);
 
-		System.out.println("sus datos son:");
-		System.out.println("nombre:"+nombre);
-		System.out.println("apellido:"+apellido);
-		System.out.println("edad:"+edad);
-	
+
 		//}
 	//if (opcion.equalsIgnoreCase("ayuntamiento")){
+		System.out.println("seguimos con el ayuntamiento");
 		String pueblo;
 		String direccion;
 		int habitantes;
@@ -55,13 +52,10 @@ public class Main {
 		ayunt.sethabitantes(habitantes);
 		ayunt.setalcalde(alcalde);
 
-		System.out.println("el pueblo y sus datos son:");
-		System.out.println("pueblo:"+pueblo);
-		System.out.println("direccion:"+direccion);
-		System.out.println("habitantes:"+habitantes);
-		System.out.println("alcalde:"+alcalde);
+	
 	//	}
 	//if (opcion.equalsIgnoreCase("espaciopublico")){
+		System.out.println("continuamos con el espacio publico");
 
 			String calle;
 			String municipio;
@@ -77,13 +71,10 @@ public class Main {
 			espacio.setcalle(calle);
 			espacio.setnunicipio(municipio);
 
-			System.out.println("el espacio publico y sus datos son:");
-			System.out.println("la calle es:" + calle);
-			System.out.println("el municipio es:" + municipio);
 		//}
 
 	//if (opcion.equalsIgnoreCase("inmueble")) {
-
+			System.out.println("ahora el inmueble");
 		String tipo;
 		String calleinmueble;
 		int numero;
@@ -101,14 +92,11 @@ public class Main {
 		inm.setcalle(calle);
 		inm.setnumero(numero);
 
-		System.out.println("los datos del inmueble son:");
-		System.out.println("el tipo es:" + tipo);
-		System.out.println("la calle es:" + calleinmueble);
-		System.out.println("el numero del inmueble:" + numero);
 
 	//	}
 
 //if (opcion.equalsIgnoreCase("partido")){
+		System.out.println("por ultimo el partido");
 		String candidato;
 		String director;
 		String ideologia;
@@ -128,11 +116,32 @@ public class Main {
 		part.setideologia(ideologia);
 
 
+		//} 
+		//habitante
+		System.out.println("sus datos de habitante:");
+		System.out.println("nombre:"+nombre);
+		System.out.println("apellido:"+apellido);
+		System.out.println("edad:"+edad);
+		//ayuntamiento
+		System.out.println("el ayuntamiento y sus datos:");
+		System.out.println("pueblo:"+pueblo);
+		System.out.println("direccion:"+direccion);
+		System.out.println("habitantes:"+habitantes);
+		System.out.println("alcalde:"+alcalde);
+		//el espacio publico 
+		System.out.println("el espacio publico y sus datos son:");
+		System.out.println("la calle es:" + calle);
+		System.out.println("el municipio es:" + municipio);
+		//el inmueble
+		System.out.println("los datos del inmueble son:");
+		System.out.println("el tipo es:" + tipo);
+		System.out.println("la calle es:" + calleinmueble);
+		System.out.println("el numero del inmueble:" + numero);
+		//el partido
 		System.out.println("los datos del partidos son:");
 		System.out.println("el candidato es:" +candidato);
 		System.out.println("el director es:" + director);
 		System.out.println("la ideologia de este partido es" + ideologia);
-		//} 
 
 	}
 	
