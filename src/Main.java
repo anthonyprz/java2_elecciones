@@ -132,6 +132,12 @@ public class Main {
 			List<String> aList= new ArrayList<String>(Arrays.asList(salida.split(" ")));
 			System.out.println("Estos son los partidos que hay disponibles");
 			
+			ArrayList <String> lista=new ArrayList <String>();
+			String fila=bf.readLine();
+			while (fila!=null) {
+				lista.add(fila);
+				fila=bf.readLine();
+			}
 			
 			for(int r=0;r<aList.size();r++)
 			{
