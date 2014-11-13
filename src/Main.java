@@ -1,7 +1,10 @@
-import java.util.Scanner;
+//package com;
 
+import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		String opcion;
 		Scanner sc = new Scanner (System.in);
@@ -114,8 +117,39 @@ public class Main {
 		part.setcandidato(candidato);
 		part.setdirector(director);
 		part.setideologia(ideologia);
+		
+		String nombredelfichero = "listadopartidos.txt";
+		String ruta = "/home/zubiri/Escritorio/java2_elecciones/src";
+		
+		String salida;
+		int i = 0;
+		
+		try {
+			File archivo = new File(ruta, nombredelfichero);
+			FileReader leer = new FileReader (archivo);
+			BufferedReader bf = new BufferedReader (leer);
+			salida = bf.readLine();
+			List<String> aList= new ArrayList<String>(Arrays.asList(salida.split(" ")));
+			System.out.println("Estos son los partidos que hay disponibles");
+			
+			
+			for(int r=0;r<aList.size();r++)
+			{
+					 System.out.println("○ " + aList.get(r));
+					
+			}
 
 
+	}
+	 catch (FileNotFoundException e) 
+	{
+       		 System.out.println(e.getMessage());
+ 
+			
+		}
+		
+	
+             //--------------impresiones-------------
 		//} 
 		//habitante
 		System.out.println("sus datos de habitante:");

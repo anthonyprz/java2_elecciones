@@ -1,5 +1,4 @@
-
-
+//package com;
 public class Espaciopublico {
 
 		private String calle;
@@ -19,4 +18,3 @@ public class Espaciopublico {
 			    this.municipio = municipio;
 		 }
 }
-

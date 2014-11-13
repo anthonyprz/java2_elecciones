@@ -1,5 +1,4 @@
-//package elecciones;
-
+//package com;
 public class Habitante {
 
 		private String nombre;
@@ -28,6 +27,3 @@ public class Habitante {
         return this.nombre+"\n"+this.apellido;
     }
 }
-
-
-

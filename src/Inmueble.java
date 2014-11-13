@@ -1,4 +1,5 @@
-		public class Inmueble {
+//package com;
+public class Inmueble {
 				
 				private String tipo;
 				private String calle;
